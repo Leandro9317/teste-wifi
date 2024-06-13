@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conectar ao Wi-Fi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Conectar ao Wi-Fi</h1>
+        <form action="/conectar" method="post">
+            <label for="phone">Número de Telefone:</label>
+            <input type="tel" id="phone" name="phone" required pattern="[0-9]{11}">
+            <button type="submit">Conectar</button>
+        </form>
+    </div>
+</body>
+</html>
